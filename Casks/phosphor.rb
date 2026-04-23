@@ -2,8 +2,7 @@ cask "phosphor" do
   version "0.0.0"
   sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
-  url "https://releases.phosphor.tools/stable/Phosphor-#{version}-arm64.dmg",
-      verified: "releases.phosphor.tools/stable/"
+  url "https://releases.phosphor.tools/stable/Phosphor-#{version}-arm64.dmg"
   name "Phosphor"
   desc "EDA workspace for electronics hardware"
   homepage "https://phosphor.tools"

@@ -2,8 +2,7 @@ cask "phosphor@testing" do
   version "0.0.0-rc.0"
   sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
-  url "https://releases.phosphor.tools/testing/Phosphor-#{version}-arm64.dmg",
-      verified: "releases.phosphor.tools/testing/"
+  url "https://releases.phosphor.tools/testing/Phosphor-#{version}-arm64.dmg"
   name "Phosphor (Testing)"
   desc "EDA workspace for electronics hardware — testing channel"
   homepage "https://phosphor.tools"
