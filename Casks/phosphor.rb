@@ -5,15 +5,15 @@ cask "phosphor" do
   url "https://releases.phosphor.tools/stable/Phosphor-#{version}-arm64.dmg"
   name "Phosphor"
   desc "EDA workspace for electronics hardware"
-  homepage "https://phosphor.tools"
+  homepage "https://phosphor.tools/"
 
   livecheck do
     url "https://releases.phosphor.tools/stable/stable-mac.yml"
     regex(/^version:\s*(\S+)/)
   end
 
-  depends_on arch: :arm64
   auto_updates true
+  depends_on arch: :arm64
 
   app "Phosphor.app"
 
